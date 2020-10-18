@@ -1,0 +1,21 @@
+.search {
+  position: relative;
+  margin-bottom: 45px;
+
+  &:before {
+    visibility: hidden;
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 10px;
+    top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/loader.svg");
+  }
+
+  &--loader:before {
+    visibility: visible;
+  }
+}

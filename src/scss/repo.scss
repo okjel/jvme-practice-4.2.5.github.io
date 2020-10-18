@@ -1,0 +1,22 @@
+.repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid $color-dark;
+  background-color: $color-secondary;
+  height: 100px;
+  padding: 10px 15px;
+
+  font-size: 20px;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__btn-close {
+    margin-right: 12px;
+  }
+}
